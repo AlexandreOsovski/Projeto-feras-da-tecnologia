@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+</head>
+<body>
+
+    <div class="navbar-amaricanas-top">
+        <nav class="navbar">
+          <a class="navbar-amaricanas">
+            <img src="/img/imagem-americanas.png" class="img-logo">
+          </a>
+        </nav>
+    </div>
+
+    <div class="criar-seu-cadastro">
+        <form class="card-nome-completo">
+            <h1>criar seu cadastro</h1>
+            <h3>veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</h3>
+            <p>*campos obrigatórios</p>
+        
+            <div class="campo-cadastro-cliente">
+                <div class="nome-completo-cliente">
+                    <div class="nome-cliente">
+                        <label>*nome completo</label>
+                        <input type="text" name="nome-completo" class="nome-completo-cliente">
+                    </div>
+                </div>
+                <div class="area-genero-cliente">
+                    <label>*gênero</label>
+                        <p>pra gente te conhecer um pouquinho melhor :)</p>
+
+                            <div class="radio-escolher-sexo">
+                                <input type="radio" name="masculino">
+                                <span>masculino</span>
+                            </div>
+
+                            <div class="radio-escolher-sexo">
+                                <input type="radio" name="masculino">
+                                <span>feminino</span>
+                            </div>
+
+                            <div class="radio-escolher-sexo">
+                                <input type="radio" name="masculino">
+                                <span>não informar</span>
+                            </div>    
+                </div>
+
+                <div class="data-nascimento-cliente">
+                    <label>*Data de nascimento </label>
+                    <p>necessário pra identificar a maioridade, no formato DD/MM/AAAA</p>
+                        <div class="input-data-nascimento">
+                            <input type="date" name="data-nascimento">
+                        </div>
+                </div>
+
+                <div class="cpf-cliente">
+                    <label>*CPF</label>
+                    <p>necessário pra emissão das Notas Fiscais</p>
+                        <div class="input-cpf-cliente">
+                            <input type="text" name="cpf-cliente" maxlength="11">
+                        </div>
+                </div>
+
+                <div class="numero-telefone">
+                    <label>*telefone</label>
+                    <p>caso a gente precise entrar em contato sobre seus pedidos</p>
+                        <div class="telefone-cliente">
+                            <input type="text" name="telefone-cliente" id="telefone-cliente">
+                        </div>
+                        <div class="checkbox-whatsapp">
+                            <input type="checkbox" name="checkbox-whatsapp" id="checkbox-whatsapp">
+                            <label>receber notificações por whatsapp</label>
+                        </div>
+                </div>
+
+                <div class="email-cliente">
+                    <label>*e-mail</label>
+                        <div class="email-cliente">
+                            <input type="email" name="email-cliente" id="email-cliente">
+                        </div>
+                        <div class="checkbox-email">
+                            <input type="checkbox" name="checkbox-email" id="checkbox-email">
+                            <label>receber e-mails promocionais</label>
+                        </div>
+                </div>
+
+                <div class="senha-cliente">
+                    <label>*senha</label>
+                    <p>precisa ter entre 6 e 20 caracteres</p>
+                        <div>
+                            <input type="password" name="password-cliente" id="password-cliente">
+                        </div>
+                </div>
+
+                <div class="checkbox-compartilhar-dados">
+                    <input type="checkbox" name="compartilhar-dados" id="compartilhar-dados">
+                    <label> compartilhar meus dados com parceiros para ter conteúdos pernonalizados, veja</label> 
+                    <span> 
+                        <a href="">como funciona.</a>
+                    </span> 
+                </div>
+
+                <div class="enviar-cadastro">
+                    <button>
+                        <input type="button" value="criar seu cadastro" name="btn-criar-cadastro" id="btn-criar-cadastro">
+                    </button>
+                </div>
+
+                <div class="politica-privacidade">
+                    <span>Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, você concorda com a nossa 
+                        <a href="/html/politica_privacidade.html">Política de Privacidade</a>
+                    </span>
+                </div>
+
+                <div class="card-footer">
+                    <span>Já tem cadastro?
+                        <a href="login.html">entrar</a>
+                    </span>
+                    
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
