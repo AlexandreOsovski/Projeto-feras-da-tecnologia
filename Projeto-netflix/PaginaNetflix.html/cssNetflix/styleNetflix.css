@@ -8,45 +8,70 @@
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -5px;
+    
 }
-.corpositeNetflix .corpoNEtflix  .logo-netflix{
-    position: relative;
+.corpoSiteNetflix .corpoNetflix .logo-botoes .logoNetflix1 .logoNetflix2 img{
     display: flex;
-    margin-left: 10px;
-    left: 10%;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+    width: 150px;
+    height: 100px;
 }
-.corpoNetflix  .btn-selecao-idioma  .selecao-idiomas-top{
+.corpoNetflix  .btn-selecao-idioma  .selecao-idiomas-top .idiomas{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
-    bottom: 70px;
-    left: 90%;
-    align-items: flex-end;
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    border: 0;
+    float: right;
     
 
 }
 .corpoSiteNetflix .corpoNetflix .btn-selecao-idioma .btn-entrar{
-    background-color: red;
+    position: relative;
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    border-color: #e50914;
+    text-decoration: none;
+    border-radius: 3px;
+    float: right;
+    top: -50px;
+    right: 40px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    
 }
 .corpoSiteNetflix .corpoNetflix .escritasNetflix h1{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: relative;
     color: white;
     align-items: center;
-    top: 80px;
+    top: 40px;
     margin-bottom: 0px;
-    left: 650px;
     font-size: 3.125rem;
     font-family: sans-serif;
     
 }
 .corpoSiteNetflix .corpoNetflix .escritasNetflix .baixo-filmes{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: relative;
     color: white;
     align-items: center;
-    top: 35px;
+    top: 10px;
     margin-bottom: 0px;
-    left: 690px;
     font-size: 3.125rem;
     font-family: sans-serif;
     
@@ -54,40 +79,47 @@
 
 .corpoSiteNetflix .corpoNetflix .escritasNetflix .baixo-sem-limite{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: relative;
     color: white;
     align-items: center;
-    top: 30px;
-    left: 650px;
-    font-size: 1.625rem;
+    top: 5px;
+    font-size: 1.63rem;
+    font-weight: 400;
     font-family: sans-serif;
     
 }
 .corpoSiteNetflix .corpoNetflix  .logo-botoes .InformeEmail h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: relative;
     color: white;
-    align-items: center;
-    left: 580px;
     max-width: none;
-    top: 30px;
-    padding-bottom: 20px;
-    font-size: 1.2rem;
+    top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: 400;
     font-family: sans-serif;
 }
     
 .corpoSiteNetflix .corpoNetflix  .logo-botoes .InformeEmail .btn-vamos-la{
     position: relative;
- 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     top: 10px;
-
     min-width: 450px;
     height: 60px;
 }
 .corpoSiteNetflix .corpoNetflix  .logo-botoes .InformeEmail input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: relative;
     color: white;
-    align-items: center;
-    left: 630px;
     min-width: 450px;
     height: 60px;
     padding: 10px 10px 0;
@@ -97,10 +129,11 @@
     color: #000;
 }
 .corpoSiteNetflix .corpoNetflix  .logo-botoes .InformeEmail label{
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     color: white;
     align-items: center;
-    left: 330px;
     min-width: 450px;
     height: 60px;
     padding: 10px 10px 0;
@@ -110,20 +143,24 @@
     color: #000;
 }
 .corpoSiteNetflix .corpoNetflix  .logo-botoes .InformeEmail button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     cursor: pointer;
     top: 2px;
     background: red;
     border-color: red; 
     position: relative;
     color: white;
-    align-items: center;
-    left: 630px;
     font-size: 40px;
     height: 60px;
     font-family: sans-serif
 }
+
+
+/*corpo TV netflix*/
 .corpoSiteNetflix .corpoNetflixBaixo{
-    height: 400px;
+    height: 460px;
     position: relative;
     background-color: #000;
     margin-top: -35px;
@@ -131,41 +168,184 @@
     margin-right: -5px;
 }
 .corpoSiteNetflix .corpoNetflixBaixo h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: relative;
+    margin-right: 400px;
     color: white;
-    left: 440px;
-    top: 50px;
+    top: 100px;
     font-size: 3.125rem;
-    line-height: 1.1;
     margin-bottom: .5rem;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 
 }
+
 .corpoSiteNetflix .corpoNetflixBaixo h2{
     position: relative;
     color: white;
-    left: 440px;
-    top: 50px;
-    font-size: 1.5rem;
+    margin-left: 550px;
+    top:100px;
+    font-size: 1.2rem;
     font-weight: 400px;
-    margin: .75em 0 .25em;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 
 }
 .corpoSiteNetflix .corpoNetflixBaixo .tvNetFlix{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: relative;
-    left: 700px;
-    top: 40px;
-    margin: -10% -5% -5% 0;
+    bottom: 300px;
+    margin-left:1000px;
     overflow: hidden;
     
     
 }
 .corpoSiteNetflix .corpoNetflixBaixo .imgSeries{
     position: relative;
-    left: 1040px;
-    bottom: 90px;
+    margin-left: 1050px;
+    bottom: 40px;
+   
+    
+
+}
+
+/*CORPO BAIXO QUE TEM O CELULAR*/
+.corpoSiteNetflix .corpoNetflixBaixo2{
+    height: 460px;
+    position: relative;
+    background-color: #000;
+    margin-top: -35px;
+    margin-left: -10px;
+    margin-right: -5px;
+}
+.corpoSiteNetflix .corpoNetflixBaixo2 h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-left: 200px;
+    color: white;
+    top: 100px;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.corpoSiteNetflix .corpoNetflixBaixo2 h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    color: white;
+    margin-left: 200px;
+    top:100px;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.corpoSiteNetflix .corpoNetflixBaixo2 .celularNetFlix{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+    margin-left: 330px;
+    
+}
+/*CORPO BAIXO QUE TEM COMPUTADOR, CELULAR E TABLET*/
+.corpoSiteNetflix .corpoNetflixBaixo3{
+    height: 460px;
+    position: relative;
+    background-color: #000;
+    margin-top: -35px;
+    margin-left: -10px;
+    margin-right: -5px;
+}
+.corpoSiteNetflix .corpoNetflixBaixo3 h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-right: 400px;
+    color: white;
+    top: 100px;
+    font-size: 3.125rem;
+    margin-bottom: .5rem;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.corpoSiteNetflix .corpoNetflixBaixo3 h2{
+    position: relative;
+    color: white;
+    margin-left: 480px;
+    top:100px;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+.corpoSiteNetflix .corpoNetflixBaixo3 .celularPCTabletNetFlix{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-left: 1000px;
+    overflow: hidden;
+    bottom: 280px;
+}
+.corpoSiteNetflix .corpoNetflixBaixo3 .img-peaky-blinders {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-left: 1090px;
+    bottom: 20px;
+
+}
+/*ULTIMO CORPO*/
+.corpoSiteNetflix .corpoNetflixBaixo4{
+    height: 460px;
+    position: relative;
+    background-color: #000;
+    margin-top: -35px;
+    margin-left: -10px;
+    margin-right: -5px;
+}
+.corpoSiteNetflix .corpoNetflixBaixo4 h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 200px;
+    color: white;
+    top: 100px;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.corpoSiteNetflix .corpoNetflixBaixo4 h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    color: white;
+    left: 230px;
+    top:100px;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    margin: .75em 0 .25em;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.corpoSiteNetflix .corpoNetflixBaixo4 .criancaNetFlix{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    left: 390px;
     margin: -10% -5% -5% 0;
-    
-    
 }
